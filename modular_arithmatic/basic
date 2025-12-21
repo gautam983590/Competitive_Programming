@@ -1,0 +1,5 @@
+/*(a+b)%c = ((a%c)+(b%c))%c
+(a*b)%c = ((a%c)*(b%c))%c
+(a-b)%c = ((a%c)-(b%c)+c)%c
+(a/b)%c = ((a%c)*(b^-1%c))%c*/  // here see its only the way to calculate modulo with division dont use other
+// we 10^9+7 number to use in modulo arithmetic bcz its a prime number and nearly max int data type to reach

@@ -1,0 +1,14 @@
+/*
+m.insert({4,"ajf"});
+
+m.erase(3);  it will delete isme unidentified value nhi de sakte h segmentation fault ho jaega
+
+auto it = m.find(3);
+
+m.clear(); it will clear everything on map
+
+for(auto &pr : m){
+        cout << pr.first << " " << pr.second << endl;// pr value ko access karne ki time complexitity bhi O(logn) hai
+    }
+
+*/
